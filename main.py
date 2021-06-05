@@ -18,7 +18,7 @@ app_path = 'https://freebitco.in'
 
 # Browser config
 opts = Options()
-opts.binary_location = 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe'  # <-- Change to your Chromium browser path, replace '\' with '\\'.
+opts.binary_location = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'  # <-- Change to your Chromium browser path, replace '\' with '\\'.
 opts.add_experimental_option('excludeSwitches', ['enable-automation'])
 opts.add_experimental_option('useAutomationExtension', False)
 cap = DesiredCapabilities.CHROME.copy()
