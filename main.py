@@ -174,6 +174,7 @@ def Roller():
                 else:
                     log.screen_n_file('[!] %s has exception: %s!' % (app, ex))
                     notification.notify(app, '%s has exception: %s!' % (app, ex))
+        browser.set_page_load_timeout(60)
         try:
             browser.get(app_path)
             for cookie in fbtc_cookies:
