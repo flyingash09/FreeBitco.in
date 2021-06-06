@@ -197,6 +197,10 @@ def Roller():
                 browser.execute_script('document.getElementsByClassName("cc_banner")[0].remove();')
             except:
                 pass
+            try:
+                browser.execute_script('document.getElementsByClassName("reveal-modal-bg")[0].remove();')
+            except:
+                pass
 
             while True:
                 try:

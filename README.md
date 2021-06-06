@@ -12,7 +12,7 @@ Earn free BTC every hour. ==> [Register here](https://freebitco.in/?r=41974942).
 
 ##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> History:
 
-**v1.0** [View on Youtube]()
+**v1.0** [View on Youtube](https://youtu.be/P2apjv1qhm8)
 
 - Roll reward every hour.
 - Support proxy (include authentication proxy).
@@ -46,7 +46,7 @@ Earn free BTC every hour. ==> [Register here](https://freebitco.in/?r=41974942).
 
 ##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Lịch sử:
 
-**v1.0** [Xem trên Youtube]()
+**v1.0** [Xem trên Youtube](https://youtu.be/P2apjv1qhm8)
 
 - Xoay thưởng mỗi giờ.
 - Hỗ trợ proxy (bao gồm proxy có username và password).
