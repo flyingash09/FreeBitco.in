@@ -13,7 +13,7 @@ from selenium.webdriver import Proxy
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from Modules import update, notification, log, captcha
 
-app = 'Freebitco.in'
+app = 'FreeBitco.in'
 app_path = 'https://freebitco.in'
 
 # Browser config
@@ -146,6 +146,14 @@ def changeDriver():
     return False
 
 
+# Get with exception handler
+def get(browser, url):
+    try:
+        browser.get(url)
+    except:
+        pass
+
+
 # Roll for BTC
 def Roller():
     func = "Roll"
@@ -174,12 +182,14 @@ def Roller():
                 else:
                     log.screen_n_file('[!] %s has exception: %s!' % (app, ex))
                     notification.notify(app, '%s has exception: %s!' % (app, ex))
+
         browser.set_page_load_timeout(60)
+        browser.implicitly_wait(60)
         try:
-            browser.get(app_path)
+            get(browser, app_path)
             for cookie in fbtc_cookies:
                 browser.add_cookie(cookie)
-            browser.get(app_path + func_path)
+            get(browser, app_path + func_path)
             while True:
                 time.sleep(1)
                 try:
@@ -243,6 +253,6 @@ def Roller():
 if update.check():
     log.screen_n_file('[*] New version is released. Please download it! Thank you.')
     notification.notify(app, 'New version is released. Please download it! Thank you.')
-    os.system('start https://www.youtube.com/c/AutoAlmostEverything')
+    os.system('start https://www.youtube.com/watch?v=P2apjv1qhm8')
 else:
     Roller()
