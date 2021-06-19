@@ -19,8 +19,10 @@ app_path = 'https://freebitco.in'
 # Browser config
 opts = Options()
 opts.binary_location = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'  # <-- Change to your Chromium browser path, replace '\' with '\\'.
-opts.add_experimental_option('excludeSwitches', ['enable-automation'])
 opts.add_experimental_option('useAutomationExtension', False)
+opts.add_experimental_option('excludeSwitches', ['enable-automation'])
+opts.add_argument('--log-level=3')
+opts.add_argument('--mute-audio')
 cap = DesiredCapabilities.CHROME.copy()
 cap['platform'] = 'WINDOWS'
 cap['version'] = '10'
