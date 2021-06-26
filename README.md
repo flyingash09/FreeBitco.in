@@ -1,12 +1,12 @@
 # FreeBitco.in Auto Roll
 
-Earn free BTC every hour. ==> [Register here](https://freebitco.in/?r=41974942).
+Claim free BTC every hour on FreeBitco.in. [Register here](https://freebitco.in/?r=41974942).
 
 ### [English - Tiếng Việt bên dưới]
 
 ##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Functions:
 
-1. Roll reward every hour.
+1. Roll to claim reward every hour.
 2. Support proxy (include authentication proxy).
 3. Logging.
 
@@ -14,7 +14,7 @@ Earn free BTC every hour. ==> [Register here](https://freebitco.in/?r=41974942).
 
 **v1.0** [View on Youtube](https://youtu.be/P2apjv1qhm8)
 
-- Roll reward every hour.
+- Roll to claim reward every hour.
 - Support proxy (include authentication proxy).
 - Logging.
 
@@ -29,7 +29,7 @@ Earn free BTC every hour. ==> [Register here](https://freebitco.in/?r=41974942).
 
 ##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Tính năng:
 
-1. Xoay thưởng mỗi giờ.
+1. Xoay để nhận thưởng mỗi giờ.
 2. Hỗ trợ proxy (bao gồm proxy có username và password).
 3. Ghi log.
 
@@ -37,7 +37,7 @@ Earn free BTC every hour. ==> [Register here](https://freebitco.in/?r=41974942).
 
 **v1.0** [Xem trên Youtube](https://youtu.be/P2apjv1qhm8)
 
-- Xoay thưởng mỗi giờ.
+- Xoay để nhận thưởng mỗi giờ.
 - Hỗ trợ proxy (bao gồm proxy có username và password).
 - Ghi log.
 
